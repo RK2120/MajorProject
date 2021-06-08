@@ -1,0 +1,101 @@
+body {
+  overflow-x: auto;
+}
+
+.bodyStyle {
+  position: absolute;
+  width: 1440px;
+  background: #112937;
+  color: rgb(0, 255, 157);
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: red;
+}
+
+#Date {
+  position: absolute;
+  width: 195px;
+  height: 28px;
+  left: 29px;
+  top: 10px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+#vitalsBox {
+  width: 320px;
+  height: 563px;
+  left: 29px;
+  top: 56px;
+
+  background: #ffffff;
+  border-radius: 14px;
+}
+
+#graphBox1 {
+  width: 786px;
+  height: 272px;
+  left: 365.99px;
+  top: 56px;
+
+  background: #ffffff;
+  border-radius: 14px;
+}
+
+#graphBox2 {
+  width: 786px;
+  height: 272px;
+  left: 654.99px;
+  top: 345px;
+
+  background: #ffffff;
+  border-radius: 14px;
+}
+
+#rightBox {
+  width: 272px;
+  height: 272px;
+  left: 1169px;
+  top: 56px;
+
+  background: #ffffff;
+  border-radius: 14px;
+}
+
+#leftBox {
+  width: 272px;
+  height: 272px;
+  left: 365.99px;
+  top: 345px;
+
+  background: #ffffff;
+  border-radius: 14px;
+}
+
+/* @media screen and (max-width: 800px) {
+	#vitalsBox {
+		width: 2%;
+	}
+	#graphBox1, #graphBox2, #rightBox, #leftBox {
+		position: absolute;
+width: 272px;
+height: 272px;
+left: 365.99px;
+top: 345px;
+
+background: #FFFFFF;
+border-radius: 14px;
+	}
+  } */
